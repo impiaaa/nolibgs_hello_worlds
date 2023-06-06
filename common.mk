@@ -54,3 +54,7 @@ endef
 # convert HIT to bin
 %.o: %.HIT
 	$(call OBJCOPYME)
+
+# convert TMD to bin
+%.o: %.tmd
+	$(call OBJCOPYME)
